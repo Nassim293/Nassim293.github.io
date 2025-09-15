@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nieuws</title>
+</head>
+<body bgcolor="lightyellow">
+  <h1>Welkom op de Nieuws-pagina!</h1>
+  <p>Hier komen straks alle nieuwtjes te staan.</p>
+  <p><a href="index.html">Terug naar Home</a></p>
+</body>
+</html>
