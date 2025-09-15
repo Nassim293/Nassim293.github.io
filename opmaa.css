@@ -1,23 +1,67 @@
-ul {
+/* Algemene stijl */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigatiebalk */
+nav {
+  background-color: #1e3d59; /* mooie blauwe kleur */
+  overflow: hidden;
+  box-shadow: 0 4 px 6 px rgba(0,0,0,0.1);
+}
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+  text-align: center;
 }
 
-ul li {
-  float: left;
+nav ul li {
+  display: inline-block;
 }
 
-ul li a {
+nav ul li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 15 px 30 px;
+  font-weight: bold;
+  transition: background-color 0.3 s, color 0.3 s;
 }
 
-ul li a:hover {
-  background-color: #111111;
+nav ul li a:hover {
+  background-color: #f5a623; /* oranje kleur bij hover */
+  color: #fff;
+  border-radius: 5 px;
+}
+
+/* Afbeelding in het midden */
+.center-image {
+  text-align: center;
+  margin: 30 px  0;
+}
+
+/* Kopteksten */
+h1, h2 {
+  text-align: center;
+  color: #1e3d59;
+}
+
+/* Link naar andere pagina als knop */
+a.page-link {
+  display: inline-block;
+  padding: 10 px 20 px;
+  background-color: #1e3d59;
+  color: white;
+  text-decoration: none;
+  border-radius: 5 px;
+  transition: background-color 0.3 s;
+}
+
+a.page-link:hover {
+  background-color: #f5a623;
 }
