@@ -3,36 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <title>Homepagina</title>
+  <style>
+    body {
+      background-color: #f0f4f8;
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navigatiebalk linksboven */
+    .navbar {
+      background: linear-gradient(90deg, #333, #444);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: auto; /* past zich aan aan de items */
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      border-radius: 0 0 5px 0; /* leuk hoekje */
+    }
+
+    .navbar li {
+      margin: 0;
+    }
+
+    .navbar li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      transition: background 0.3s, transform 0.3s;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .navbar li a:hover {
+      background: #1abc9c;
+      transform: translateY(-2px);
+      border-radius: 4px;
+    }
+
+    /* Titel en inhoud */
+    h1 {
+      text-align: center;
+      margin-top: 80px; /* zodat tekst niet achter de navbar valt */
+      color: #333;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+    }
+
+    /* Afbeelding centreren */
+    .center-image {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
 </head>
-<body style="background-color: lightblue;">
+<body>
 
-  <!-- Titel van de pagina -->
-  <h1 style="text-align:center;">Welkom op mijn website!
-
-  <!-- Korte introductie -->
-  <p style="text-align:center;">Dit is mijn eerste website. Hier vind je informatie over mij.</p>
-
-  <!-- Navigatiemenu -->
-  <ul>
+  <!-- Navigatiemenu linksboven -->
+  <ul class="navbar">
     <li><a href="index.html">Home</a></li>
     <li><a href="nieuws.html">Nieuws</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="over.html">Over mij</a></li>
   </ul>
-  
+
+  <!-- Titel van de pagina -->
+  <h1>Welkom op mijn website!</h1>
+
+  <!-- Korte introductie -->
+  <p>Dit is mijn eerste website. Hier vind je informatie over mij.</p>
+
   <!-- Afbeelding in het midden -->
-  <div style="text-align:center;">
+  <div class="center-image">
     <img src="download (11).jpeg" alt="Real Madrid Logo" width="200">
   </div>
 
   <!-- Extra informatie -->
   <h2>Over deze site</h2>
-  <p>Op deze website kun je meer leren over mijn interesses, nieuwtjes lezen en contact met mij opnemen.  </p>
+  <p>Op deze website kun je meer leren over mijn interesses, nieuwtjes lezen en contact met mij opnemen.</p>
 
   <!-- Link naar een andere pagina -->
-  <p style="text-align:center;">
+  <p>
     <a href="pagina2.html">Ga naar pagina 2</a>
   </p>
 
 </body>
 </html>
+
