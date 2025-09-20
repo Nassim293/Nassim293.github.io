@@ -1,18 +1,18 @@
-css
+<!-- dit is mijn opmaa.css bestand!-->
 
-<!-- dit is hoe ik mijn menu mooier maak -->
-<html>
-<head>
-<style>
+
+<!-- hier maak ik mijn body mooier -->
 body {
   margin: 0;
   padding: 0;
 }
 
+< 
 h2, p {
   margin: 10px;
 }
 
+<!-- mijn menu balk mooier maken -->
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,18 +36,5 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-</style>
-</head>
-<body>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-
-
-</body>
-</html>
 
