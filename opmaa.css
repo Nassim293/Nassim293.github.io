@@ -1,40 +1,38 @@
-<!-- dit is mijn opmaa.css bestand!-->
+/* Dit is mijn CSS-bestand hier maak ik mijn site mooier */
 
-
-<!-- hier maak ik mijn body mooier -->
+/* Body: zorgt dat er geen rare marge of padding is */
 body {
   margin: 0;
   padding: 0;
 }
 
-< 
+/* h2 en p beetje ruimte rond kopjes en tekst */
 h2, p {
-  margin: 10px;
+  margin: 10 px;
 }
 
-<!-- mijn menu balk mooier maken -->
+/* Navigatiebalk: maak het mooi en donker */
 ul {
-  list-style-type: none;
+  list-style-type: none; /* geen bolletjes */
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #333333; /* donkergrijze achtergrond */
 }
 
 ul li {
-  float: left;
+  float: left; /* de links naast elkaar */
 }
 
 ul li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  color: white; /* witte tekst */
+  text-align: center; /* in het midden */
+  padding: 14 px 16 px; /* beetje ruimte binnen de link */
+  text-decoration: none; /* geen onderstreping */
 }
 
+/* Hover: als je met muis over de link gaat */
 ul li a:hover {
-  background-color: #111111;
+  background-color: #111111; /* wordt donkerder */
 }
-
-
