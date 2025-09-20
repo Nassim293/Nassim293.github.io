@@ -31,8 +31,3 @@ ul li a {
   padding: 14px 16px; /* beetje ruimte binnen de link */
   text-decoration: none; /* geen onderstreping */
 }
-
-/* Hover: als je met muis over de link gaat */
-ul li a:hover {
-  background-color: #111111; /* wordt donkerder */
-}
