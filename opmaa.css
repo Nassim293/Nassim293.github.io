@@ -1,4 +1,4 @@
-/* Dit is mijn CSS-bestand hier maak ik mijn site mooier */
+/* Dit is mijn CSS-bestand, hier maak ik mijn site mooier */
 
 /* Body: zorgt dat er geen rare marge of padding is */
 body {
@@ -6,9 +6,9 @@ body {
   padding: 0;
 }
 
-/* h2 en p beetje ruimte rond kopjes en tekst */
+/* h2 en p: beetje ruimte rond kopjes en tekst */
 h2, p {
-  margin: 10 px;
+  margin: 10px; /* let op: geen spatie bij px */
 }
 
 /* Navigatiebalk: maak het mooi en donker */
@@ -28,7 +28,7 @@ ul li a {
   display: block;
   color: white; /* witte tekst */
   text-align: center; /* in het midden */
-  padding: 14 px 16 px; /* beetje ruimte binnen de link */
+  padding: 14px 16px; /* beetje ruimte binnen de link */
   text-decoration: none; /* geen onderstreping */
 }
 
