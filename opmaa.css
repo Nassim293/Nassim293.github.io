@@ -1,33 +1,37 @@
-/* Dit is mijn CSS-bestand, hier maak ik mijn site mooier */
-
-/* Body: zorgt dat er geen rare marge of padding is */
 body {
-  margin: 0;
-  padding: 0;
+  background-color: lightblue;
 }
 
-/* h2 en p: beetje ruimte rond kopjes en tekst */
-h2, p {
-  margin: 10px; /* let op: geen spatie bij px */
+h1 {
+  color: white;
+  text-align: center;
 }
 
-/* Navigatiebalk: maak het mooi en donker */
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
 ul {
-  list-style-type: none; /* geen bolletjes */
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333; /* donkergrijze achtergrond */
+  background-color: #333333;
 }
 
 ul li {
-  float: left; /* de links naast elkaar */
+  float: left;
 }
 
 ul li a {
   display: block;
-  color: white; /* witte tekst */
-  text-align: center; /* in het midden */
-  padding: 14px 16px; /* beetje ruimte binnen de link */
-  text-decoration: none; /* geen onderstreping */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
