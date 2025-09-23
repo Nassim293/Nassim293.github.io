@@ -1,16 +1,20 @@
 
 body {
   background-color: Lightbleu;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
 h1 {
   color: dark grey;
-  text-align: center;
+  text-align: left;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+  text-align: left; /* Tekst links uitlijnen */
+  line-height: 1.6
 }
 
 ul {
