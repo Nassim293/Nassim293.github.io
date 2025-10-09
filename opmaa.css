@@ -1,12 +1,13 @@
 
 body {
   background-color: lightskyblue; /* achtergrond kleur in de body*/ 
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* lettertype in de body*/
   margin: 20px;
+
 }
 
 h1 {
-  color: dark grey;
+  color: dark rgb(255, 255, 255);
   text-align: left;
 }
 
