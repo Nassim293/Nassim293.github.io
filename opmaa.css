@@ -1,8 +1,11 @@
 
-body {
+body {  /* BODY: de hele pagina */
+
+ background-image: url('download.jpg'); /* De afbeelding als achtergrond */
+    background-size: cover;   /* Zorgt dat de afbeelding het hele scherm vult */
   background-color: lightskyblue; /* achtergrond kleur in de body*/ 
   font-family: Arial, sans-serif; /* lettertype in de body*/
-  margin: 20px;
+  margin: 20px; 
 
 }
 
