@@ -1,16 +1,13 @@
-
-/* Mijn algemene body stijl */
+/* ===== ALGEMENE STIJLEN ===== */
 body {
-    margin: 0; /* Verwijdert standaardmarges */
-    font-family: Arial, sans-serif; /* Standaard lettertype */
-    background-color: #000; /* Zwarte achtergrond */
-    color: #f0f0f0; /* Witte/lichte tekstkleur */
-    line-height: 1.6; /* Betere leesbaarheid */
+    margin: 0; /* Verwijdert standaardmarges van de pagina */
+    font-family: Arial, sans-serif; /* Standaard lettertype voor de hele site */
+    background-color: #000; /* Zwarte achtergrond voor hele site */
+    color: #f0f0f0; /* Witte/lichte tekstkleur voor goede leesbaarheid */
+    line-height: 1.6; /* Betere leesbaarheid tussen regels */
 }
 
-
-
-/* Navigatiebalk styling*/
+/* ===== NAVIGATIEBALK ===== */
 ul.navbar {
     list-style: none; /* Verwijdert standaard bolletjes */
     margin: 0; /* Verwijdert standaard marges */
@@ -20,9 +17,6 @@ ul.navbar {
     background-color: #111; /* Donkergrijze/zwart achtergrond voor menu */
 }
 
-
-/* Navigatiebalk- hover effect */
-
 ul.navbar li a {
     display: block; /* Zorgt dat de link blokvorm heeft zodat padding werkt */
     color: white; /* Tekstkleur van de menu-items */
@@ -30,22 +24,19 @@ ul.navbar li a {
     padding: 14px 20px; /* Ruimte rond de tekst voor klikbaarheid */
     text-decoration: none; /* Verwijdert onderlijnen */
     transition: 0.3s; /* Maakt hover-effect vloeiend */
-
 }
 
 ul.navbar li a:hover {
     background-color: #333; /* Achtergrondkleur bij hover */
 }
 
-
-/* H1 titel */
+/* ===== TITELS ===== */
 h1 {
-    color: #0a4f56; /* Kleur van de tekst: donkerteal/blauwgroen */
-    text-align: center; /* Zet de tekst in het midden van de pagina */
-    font-size: 2.5em; /* Grootte van de tekst: 2,5 keer de standaard tekstgrootte */
-    margin: 30px 0 20px 0; /* Ruimte rondom de titel: 30px boven, 0 rechts, 20px onder, 0 links */
+    color: #0a4f56; /* Donkerteal kleur voor h1 */
+    text-align: center; /* Centraal uitlijnen */
+    font-size: 2.5em; /* Grote tekst voor hoofdtitels */
+    margin: 30px 0 20px 0; /* Ruimte boven en onder de titel */
 }
-
 
 h2 {
     color: #ffa500; /* Oranje kleur voor h2 */
@@ -54,3 +45,65 @@ h2 {
     margin: 20px 0 15px 0; /* Ruimte boven en onder de subtitel */
 }
 
+/* ===== PARAGRAFEN ===== */
+p {
+    font-family: Verdana, sans-serif; /* Lettertype voor tekst */
+    max-width: 900px; /* Beperkt breedte voor betere leesbaarheid */
+    margin: 10px auto; /* Automatische centrering horizontaal */
+    padding: 0 20px; /* Ruimte aan zijkanten */
+}
+
+/* ===== AFBEELDINGEN ===== */
+img {
+    display: block; /* Blokvorm zodat margin werkt */
+    margin: 20px auto; /* Centreert afbeelding met ruimte erboven en eronder */
+    max-width: 100%; /* Past zich aan aan schermbreedte */
+    border-radius: 12px; /* Ronde hoeken */
+}
+
+/* ===== IFRAME ===== */
+iframe {
+    display: block; /* Blokvorm zodat margin werkt */
+    margin: 20px auto; /* Centreert iframe */
+    max-width: 100%; /* Past zich aan aan schermbreedte */
+    border-radius: 12px; /* Ronde hoeken */
+}
+
+/* ===== CARDS ===== */
+.card {
+    background: #2a9576; /* Donkergroen als achtergrond voor cards */
+    padding: 20px; /* Ruimte binnenin de card */
+    margin: 20px auto; /* Ruimte tussen cards en horizontale centrering */
+    max-width: 900px; /* Beperkte breedte */
+    border-radius: 12px; /* Ronde hoeken van de card */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Schaduw voor diepte-effect */
+}
+
+/* ===== CENTREREN ===== */
+.center-text {
+    text-align: center; /* Tekst centreren */
+}
+
+.center-image {
+    display: block; /* Blokvorm zodat margin werkt */
+    margin-left: auto; /* Horizontaal centreren */
+    margin-right: auto; /* Horizontaal centreren */
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #2a9576; /* Donkergroen als achtergrond voor footer */
+    color: #fff; /* Witte tekstkleur */
+    text-align: center; /* Tekst centreren */
+    padding: 15px 10px; /* Ruimte binnenin footer */
+    margin-top: 40px; /* Ruimte boven footer */
+}
+
+footer a {
+    color: #fff; /* Witte linkkleur in footer */
+    text-decoration: underline; /* Onderlijnen voor duidelijkheid */
+}
+
+footer a:hover {
+    color: #000; /* Zwarte linkkleur bij hover */
+}
