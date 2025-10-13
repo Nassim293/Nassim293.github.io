@@ -17,11 +17,23 @@ h1 {
 
 }
 
-p {
-  font-family: Verdana;
-  font-size: 20px;
+h2 {
+
+  color: #333; /* donkergrijze subtitel*/
   text-align: left;
-  line-height: 1.6;
+  font-size: 2; /* iets kleinere letters dan h1 */
+  margin-top: 40px; /* ruimte boven subtitel */
+  margin-bottom: 20px; /* ruimte onder subtitel */
+}
+
+
+
+p { 
+  font-family: Verdana;  /* leesbaar lettertype voor tekst */
+  font-size: 20px; /* iets grotere tekst */
+  text-align: left;/* links uitlijnen */
+  line-height: 1.6;  /* regelafstand voor leesbaarheid */
+  margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
 
 ul {
