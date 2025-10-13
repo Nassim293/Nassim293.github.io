@@ -8,45 +8,45 @@ body {
 
 /* Titel (h1) */
 h1 {
- color:#0b3d91; /* donkerblauwe tekstkleur */
- text-align: left;  /* H1 naar links */
- font-size: 3rem; /* grotere titel */
- margin bottom: 20px;  /* ruimte onder titel */
+  color: #0b3d91; /* donkerblauwe tekstkleur */
+  text-align: left; /* titel naar links uitlijnen */
+  font-size: 3rem; /* grotere titel */
+  margin-bottom: 20px; /* ruimte onder titel */
 }
-
 
 /* deelonderwerp (h2) */
 h2 {
- color: #009dff; /* donkergrijze subtitel*/
- text-align: left; /*h2 ook naar de linker kant */
- font-size: 2rem; /* iets kleinere letters dan h1 */
- margin-top: 40px; /s* ruimte boven subtitel */
- margin-bottom: 20px; /* ruimte onder subtitel */
+  color: #009dff; /* lichte blauwe kleur voor subtitel */
+  text-align: left; /* ook naar links */
+  font-size: 2rem; /* iets kleiner dan h1 */
+  margin-top: 40px; /* ruimte boven subtitel */
+  margin-bottom: 20px; /* ruimte onder subtitel */
 }
-
 
 /* Tekst (p) */
 p {
- color:#333333;
- font-family: arial, sans-serif; /* leesbaar lettertype voor tekst */ 
- font-size: 20px; /* iets grotere tekst */
- text-align: left;/* links uitlijnen */
- line-height: 1.6;  /* regelafstand voor leesbaarheid */
- margin-bottom: 20px; /* ruimte tussen paragrafen */
+  color: #333333; /* donkergrijze tekst */
+  font-family: Arial, sans-serif; /* goed leesbaar lettertype */
+  font-size: 20px; /* iets grotere tekst */
+  text-align: left; /* links uitlijnen */
+  line-height: 1.6; /* prettige regelafstand */
+  margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
 
+/* Navigatiebalk horizontal */
 
-/* Navigatiebalk */
 ul {
- list-style-type: none; /* verwijdert bolletjes van lijst */
- margin: 0;
- padding: 0;
- display: flex; /* horizontale lijst */
- border-radius: 8px; /* afgeronde hoeken */
- box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* schaduw onder de balk */
- overflow: hidden;
- background-color: #333333;
+  list-style-type: none; /* verwijdert de standaard bolletjes */
+  margin: 0;
+  padding: 0;
+  display: flex; /* maakt de lijst horizontaal */
+  justify-content: center; /* centreert de menu-items */
+  background-color: #000000; /* zwarte navigatiebalk */
+  border-radius: 8px; /* afgeronde hoeken */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* subtiele schaduw */
+  overflow: hidden;
 }
+
 
 
 ul li {
