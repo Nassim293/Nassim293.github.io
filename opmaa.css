@@ -2,12 +2,19 @@ body {
   background-color: #87cefa; /* achtergrondkleur */
   background-size: cover; /* vult het scherm */
   font-family: Arial, sans-serif; /* lettertype */
-  margin: 20px;
+  margin: 0; /* verwijder standaardmarge */
+  padding: 20px; /* ruimte rondom inhoud */
+  color: 222px; /* standaard tekstkleur */
 }
 
+
 h1 {
-  color: white;
-  text-align: left;
+  color: white; /* witte tekstkleur */
+  text-align: left;  /* links uitlijnen */
+  font-size: 3; /* grotere titel */
+  margin bottom: 20px;  /* ruimte onder titel */
+
+
 }
 
 p {
