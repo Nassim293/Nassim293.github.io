@@ -10,12 +10,20 @@ body {
 }
 
 
-/* Navigatiebalk */
+/* Navigatiebalk styling*/
 ul.navbar {
         display: block; /* Zorgt dat de hele link klikbaar is */
     color: #fff; /* Witte tekst voor contrast op de donkere achtergrond */
     padding: 14px 20px; /* Ruimte binnen de link (boven/onder en links/rechts) */
     text-decoration: none; /* Verwijdert onderstreping van de link */
+    font-weight: bold; /* Maakt de linktekst vet */
+}
+
+/* Navigatiebalk- hover effect */
+ul.navbar li a:hover {
+  background-color: #8b4513; /* Chocoladebruin bij hover */
+      color: #fff; /* Tekstkleur blijft wit bij hover */
+    border-radius: 5px; /* Ronde hoeken bij hover */
 
 
 
