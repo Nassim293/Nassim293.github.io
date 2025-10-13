@@ -1,9 +1,8 @@
 body {
  background-color: #87cefa; /* achtergrondkleur */
- background-size: cover; /* vult het scherm */
- font-family: Garamond, sans-serif; /* lettertype */
+  font-family: Garamond, serif; /* lettertype */
  margin: 0; /* verwijder standaardmarge */
- padding: 20px; /* ruimte rondom inhoud */
+  padding: 20px; /* ruimte rondom inhoud */
  color: #222; /* standaard tekstkleur (donkergrijs) */
 }
 
@@ -30,7 +29,7 @@ h2 {
 /* Tekst (p) */
 p {
  color:#333333
-front family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
+ font-family: Verdana, sans-serif; /* leesbaar lettertype voor tekst */ 
  font-size: 20px; /* iets grotere tekst */
  text-align: left;/* links uitlijnen */
  line-height: 1.6;  /* regelafstand voor leesbaarheid */
