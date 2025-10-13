@@ -66,6 +66,12 @@ ul li a:hover {
 
 footer {
   background-color: white;
+  color:#333; /* donkere tekstkleur */
+  text-align: center; /* tekst in het midden */
+  padding: 20px; /* ruimte binnen de footer */
+
+
+
 }
 
     .center-link {
