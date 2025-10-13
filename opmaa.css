@@ -1,24 +1,20 @@
-
-body {  /* BODY: de hele pagina */
-
- background-image: url('download.jpg'); /* De afbeelding als achtergrond */
-    background-size: cover;   /* Zorgt dat de afbeelding het hele scherm vult */
-  background-color: lightskyblue; /* achtergrond kleur in de body*/ 
-  font-family: Arial, sans-serif; /* lettertype in de body*/
-  margin: 20px; 
-
+body {
+  background-color: lightskyblue; /* achtergrondkleur */
+  background-size: cover; /* vult het scherm */
+  font-family: Arial, sans-serif; /* lettertype */
+  margin: 20 px;
 }
 
 h1 {
-  color: dark rgb(255, 255, 255);
+  color: white;
   text-align: left;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
-  text-align: left; /* Tekst links uitlijnen */
-  line-height: 1.6
+  font-family: Verdana;
+  font-size: 20 px;
+  text-align: left;
+  line-height: 1.6;
 }
 
 ul {
@@ -45,8 +41,6 @@ ul li a:hover {
   background-color: #eeecec;
 }
 
-footer { /*Kleur van de footer en hoe groot hij is*/
-background-color: white ;
-
-
+footer {
+  background-color: white;
 }
