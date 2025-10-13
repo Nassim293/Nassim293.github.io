@@ -1,109 +1,89 @@
-/* ===== ALGEMENE STIJLEN ===== */
 body {
-    margin: 0; /* Verwijdert standaardmarges van de pagina */
-    font-family: Arial, sans-serif; /* Standaard lettertype voor de hele site */
-    background-color: #000; /* Zwarte achtergrond voor hele site */
-    color: #f0f0f0; /* Witte/lichte tekstkleur voor goede leesbaarheid */
-    line-height: 1.6; /* Betere leesbaarheid tussen regels */
+ background-color: #87cefa; /* achtergrondkleur */
+ background-size: cover; /* vult het scherm */
+ font-family: Arial, sans-serif; /* lettertype */
+ margin: 0; /* verwijder standaardmarge */
+ padding: 20px; /* ruimte rondom inhoud */
+ color: #222; /* standaard tekstkleur (donkergrijs) */
 }
 
-/* ===== NAVIGATIEBALK ===== */
-ul.navbar {
-    list-style: none; /* Verwijdert standaard bolletjes */
-    margin: 0; /* Verwijdert standaard marges */
-    padding: 0; /* Verwijdert standaard padding */
-    display: flex; /* Zet de menu-items naast elkaar */
-    justify-content: center; /* Centreert de menu-items horizontaal */
-    background-color: #111; /* Donkergrijze/zwart achtergrond voor menu */
-}
 
-ul.navbar li a {
-    display: block; /* Zorgt dat de link blokvorm heeft zodat padding werkt */
-    color: white; /* Tekstkleur van de menu-items */
-    text-align: center; /* Tekst gecentreerd in de link */
-    padding: 14px 20px; /* Ruimte rond de tekst voor klikbaarheid */
-    text-decoration: none; /* Verwijdert onderlijnen */
-    transition: 0.3s; /* Maakt hover-effect vloeiend */
-}
-
-ul.navbar li a:hover {
-    background-color: #333; /* Achtergrondkleur bij hover */
-}
-
-/* ===== TITELS ===== */
+/* Titel (h1) */
 h1 {
-    color: #0a4f56; /* Donkerteal kleur voor h1 */
-    text-align: center; /* Centraal uitlijnen */
-    font-size: 2.5em; /* Grote tekst voor hoofdtitels */
-    margin: 30px 0 20px 0; /* Ruimte boven en onder de titel */
+ color:#009dff; /* donkerblauwe tekstkleur */
+ text-align: left;  /* links uitlijnen */
+ font-size: 3rem; /* grotere titel */
+ margin bottom: 20px;  /* ruimte onder titel */
 }
 
+
+/* deelonderwerp (h2) */
 h2 {
-    color: #ffa500; /* Oranje kleur voor h2 */
-    text-align: center; /* Centraal uitlijnen */
-    font-size: 1.8em; /* Iets kleinere tekst dan h1 */
-    margin: 20px 0 15px 0; /* Ruimte boven en onder de subtitel */
+ color: #333; /* donkergrijze subtitel*/
+ text-align: left;
+ font-size: 2rem; /* iets kleinere letters dan h1 */
+ margin-top: 40px; /* ruimte boven subtitel */
+ margin-bottom: 20px; /* ruimte onder subtitel */
 }
 
-/* ===== PARAGRAFEN ===== */
+
+/* Tekst (p) */
 p {
-    font-family: Verdana, sans-serif; /* Lettertype voor tekst */
-    max-width: 900px; /* Beperkt breedte voor betere leesbaarheid */
-    margin: 10px auto; /* Automatische centrering horizontaal */
-    padding: 0 20px; /* Ruimte aan zijkanten */
+ color:#565656ef
+front family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
+ font-size: 20px; /* iets grotere tekst */
+ text-align: left;/* links uitlijnen */
+ line-height: 1.6;  /* regelafstand voor leesbaarheid */
+ margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
 
-/* ===== AFBEELDINGEN ===== */
-img {
-    display: block; /* Blokvorm zodat margin werkt */
-    margin: 20px auto; /* Centreert afbeelding met ruimte erboven en eronder */
-    max-width: 100%; /* Past zich aan aan schermbreedte */
-    border-radius: 12px; /* Ronde hoeken */
+
+/* Navigatiebalk */
+ul {
+ list-style-type: none; /* verwijdert bolletjes van lijst */
+ margin: 0;
+ padding: 0;
+ display: flex; /* horizontale lijst */
+ border-radius: 8px; /* afgeronde hoeken */
+ box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* schaduw onder de balk */
+ overflow: hidden;
+ background-color: #333333;
 }
 
-/* ===== IFRAME ===== */
-iframe {
-    display: block; /* Blokvorm zodat margin werkt */
-    margin: 20px auto; /* Centreert iframe */
-    max-width: 100%; /* Past zich aan aan schermbreedte */
-    border-radius: 12px; /* Ronde hoeken */
+
+ul li {
+ float: left;
+ font-size: 20px; /* maakt alle lijst-items groter */
+ line-height: 1.6; /* maakt lijst beter leesbaar */
+ margin-bottom: 10px; /* ruimte tussen items */
+
+
 }
 
-/* ===== CARDS ===== */
-.card {
-    background: #2a9576; /* Donkergroen als achtergrond voor cards */
-    padding: 20px; /* Ruimte binnenin de card */
-    margin: 20px auto; /* Ruimte tussen cards en horizontale centrering */
-    max-width: 900px; /* Beperkte breedte */
-    border-radius: 12px; /* Ronde hoeken van de card */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Schaduw voor diepte-effect */
+
+
+
+ul li a:hover {
+ background-color: #eeecec;
 }
 
-/* ===== CENTREREN ===== */
-.center-text {
-    text-align: center; /* Tekst centreren */
+
+footer  {
+ background-color: white;
+ color:#333; /* donkere tekstkleur */
+ text-align: center; /* tekst in het midden */
+ padding: 20px; /* ruimte binnen de footer */
+ margin-top: 40px; /* ruimte boven footer */
+ font-size: 0.95rem; /* iets kleinere tekst */
 }
 
-.center-image {
-    display: block; /* Blokvorm zodat margin werkt */
-    margin-left: auto; /* Horizontaal centreren */
-    margin-right: auto; /* Horizontaal centreren */
-}
-
-/* ===== FOOTER ===== */
-footer {
-    background-color: #2a9576; /* Donkergroen als achtergrond voor footer */
-    color: #fff; /* Witte tekstkleur */
-    text-align: center; /* Tekst centreren */
-    padding: 15px 10px; /* Ruimte binnenin footer */
-    margin-top: 40px; /* Ruimte boven footer */
-}
-
-footer a {
-    color: #fff; /* Witte linkkleur in footer */
-    text-decoration: underline; /* Onderlijnen voor duidelijkheid */
-}
 
 footer a:hover {
-    color: #000; /* Zwarte linkkleur bij hover */
+ color:aqua;  /* aqua blauwe linkkleur */
+ text text-decoration: none; /* verwijder onderlijning */
 }
+
+
+   .center-link {
+     text-align: center; /* link naar pagina 2 centraal houden. */
+   }
