@@ -67,3 +67,7 @@ ul li a:hover {
 footer {
   background-color: white;
 }
+
+    .center-link {
+      text-align: center; /* link naar pagina 2 centraal houden. */
+    }
