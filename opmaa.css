@@ -7,8 +7,16 @@ body {
     background-size: cover; /* Zorgt dat de achtergrond de hele pagina vult */    
     background-attachment: fixed; /* Achtergrond blijft staan bij scrollen */
     color: #f0f0f0; /* Standaard tekstkleur wit-achtig voor goed contrast */
-line-height: 1.6; /* Zorgt voor meer ruimte tussen regels tekst */
 }
 
 
 /* Navigatiebalk */
+ul.navbar {
+        display: block; /* Zorgt dat de hele link klikbaar is */
+    color: #fff; /* Witte tekst voor contrast op de donkere achtergrond */
+    padding: 14px 20px; /* Ruimte binnen de link (boven/onder en links/rechts) */
+    text-decoration: none; /* Verwijdert onderstreping van de link */
+
+
+
+}
