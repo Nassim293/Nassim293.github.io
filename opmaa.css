@@ -36,10 +36,14 @@ p {
   margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
 
+
 ul {
-  list-style-type: none;
-  margin: 0;
+  list-style-type: none; /* verwijdert bolletjes van lijst */
+  margin: 0; 
   padding: 0;
+  display: flex; /* horizontale lijst */
+  border-radius: 8px; /* afgeronde hoeken */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* schaduw onder de balk */
   overflow: hidden;
   background-color: #333333;
 }
