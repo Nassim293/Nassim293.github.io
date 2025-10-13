@@ -24,7 +24,7 @@ h2 {
 }
 
 p { 
-  font-family: Verdana;  /* leesbaar lettertype voor tekst */
+  font-family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
   font-size: 20px; /* iets grotere tekst */
   text-align: left;/* links uitlijnen */
   line-height: 1.6;  /* regelafstand voor leesbaarheid */
