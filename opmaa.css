@@ -4,9 +4,10 @@ body {
   font-family: Arial, sans-serif; /* lettertype */
   margin: 0; /* verwijder standaardmarge */
   padding: 20px; /* ruimte rondom inhoud */
-  color: 222px; /* standaard tekstkleur */
+  color: #222; /* standaard tekstkleur (donkergrijs) */
 }
 
+/* Titel (h1) */
 h1 {
   color:#009dff; /* donkerblauwe tekstkleur */
   text-align: left;  /* links uitlijnen */
@@ -14,8 +15,8 @@ h1 {
   margin bottom: 20px;  /* ruimte onder titel */
 }
 
+/* Subtitels (h2) */
 h2 {
-
   color: #333; /* donkergrijze subtitel*/
   text-align: left;
   font-size: 2rem; /* iets kleinere letters dan h1 */
@@ -23,15 +24,17 @@ h2 {
   margin-bottom: 20px; /* ruimte onder subtitel */
 }
 
+/* Tekst (p) */
 p { 
   color:#565656ef
-  font-family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
+front family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
   font-size: 20px; /* iets grotere tekst */
   text-align: left;/* links uitlijnen */
   line-height: 1.6;  /* regelafstand voor leesbaarheid */
   margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
 
+/* Navigatiebalk */
 ul {
   list-style-type: none; /* verwijdert bolletjes van lijst */
   margin: 0; 
