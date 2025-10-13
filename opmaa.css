@@ -45,15 +45,12 @@ ul {
 
 ul li {
   float: left;
+  font-size: 20px; /* maakt alle lijst-items groter */
+  line-height: 1.6; /* maakt lijst beter leesbaar */
+  margin-bottom: 10px; /* ruimte tussen items */
+
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 ul li a:hover {
   background-color: #eeecec;
