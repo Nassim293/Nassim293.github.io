@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: white; /* witte tekstkleur */
+  color:#009dff; /* donkerblauwe tekstkleur */
   text-align: left;  /* links uitlijnen */
   font-size: 3rem; /* grotere titel */
   margin bottom: 20px;  /* ruimte onder titel */
@@ -24,6 +24,7 @@ h2 {
 }
 
 p { 
+  color:#565656ef
   font-family: Verdana sans-serif;  /* leesbaar lettertype voor tekst */
   font-size: 20px; /* iets grotere tekst */
   text-align: left;/* links uitlijnen */
