@@ -10,7 +10,7 @@ body {
 h1 {
   color: white; /* witte tekstkleur */
   text-align: left;  /* links uitlijnen */
-  font-size: 3; /* grotere titel */
+  font-size: 3rem; /* grotere titel */
   margin bottom: 20px;  /* ruimte onder titel */
 }
 
@@ -18,7 +18,7 @@ h2 {
 
   color: #333; /* donkergrijze subtitel*/
   text-align: left;
-  font-size: 2; /* iets kleinere letters dan h1 */
+  font-size: 2rem; /* iets kleinere letters dan h1 */
   margin-top: 40px; /* ruimte boven subtitel */
   margin-bottom: 20px; /* ruimte onder subtitel */
 }
@@ -58,16 +58,16 @@ ul li a:hover {
   background-color: #eeecec;
 }
 
-footer {
+footer  {
   background-color: white;
   color:#333; /* donkere tekstkleur */
   text-align: center; /* tekst in het midden */
-  padding: 20; /* ruimte binnen de footer */
-  margin-top: 40; /* ruimte boven footer */
-  font-size: 0.95; /* iets kleinere tekst */
+  padding: 20px; /* ruimte binnen de footer */
+  margin-top: 40px; /* ruimte boven footer */
+  font-size: 0.95rem; /* iets kleinere tekst */
 }
 
-footer a {
+footer a:hover {
   color:aqua;  /* aqua blauwe linkkleur */
   text text-decoration: none; /* verwijder onderlijning */
 }
