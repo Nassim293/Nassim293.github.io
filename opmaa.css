@@ -1,31 +1,56 @@
 
 /* Mijn algemene body stijl */
 body {
-body {
     margin: 0; /* Verwijdert standaardmarges */
     font-family: Arial, sans-serif; /* Standaard lettertype */
     background-color: #000; /* Zwarte achtergrond */
     color: #f0f0f0; /* Witte/lichte tekstkleur */
     line-height: 1.6; /* Betere leesbaarheid */
 }
-}
+
 
 
 /* Navigatiebalk styling*/
 ul.navbar {
-        display: block; /* Zorgt dat de hele link klikbaar is */
-    color: #fff; /* Witte tekst voor contrast op de donkere achtergrond */
-    padding: 14px 20px; /* Ruimte binnen de link (boven/onder en links/rechts) */
-    text-decoration: none; /* Verwijdert onderstreping van de link */
-    font-weight: bold; /* Maakt de linktekst vet */
+    list-style: none; /* Verwijdert standaard bolletjes */
+    margin: 0; /* Verwijdert standaard marges */
+    padding: 0; /* Verwijdert standaard padding */
+    display: flex; /* Zet de menu-items naast elkaar */
+    justify-content: center; /* Centreert de menu-items horizontaal */
+    background-color: #111; /* Donkergrijze/zwart achtergrond voor menu */
 }
+
 
 /* Navigatiebalk- hover effect */
-ul.navbar li a:hover {
-  background-color: #8b4513; /* Chocoladebruin bij hover */
-      color: #fff; /* Tekstkleur blijft wit bij hover */
-    border-radius: 5px; /* Ronde hoeken bij hover */
 
-
+ul.navbar li a {
+    display: block; /* Zorgt dat de link blokvorm heeft zodat padding werkt */
+    color: white; /* Tekstkleur van de menu-items */
+    text-align: center; /* Tekst gecentreerd in de link */
+    padding: 14px 20px; /* Ruimte rond de tekst voor klikbaarheid */
+    text-decoration: none; /* Verwijdert onderlijnen */
+    transition: 0.3s; /* Maakt hover-effect vloeiend */
 
 }
+
+ul.navbar li a:hover {
+    background-color: #333; /* Achtergrondkleur bij hover */
+}
+
+
+/* H1 titel */
+h1 {
+    color: #0a4f56; /* Kleur van de tekst: donkerteal/blauwgroen */
+    text-align: center; /* Zet de tekst in het midden van de pagina */
+    font-size: 2.5em; /* Grootte van de tekst: 2,5 keer de standaard tekstgrootte */
+    margin: 30px 0 20px 0; /* Ruimte rondom de titel: 30px boven, 0 rechts, 20px onder, 0 links */
+}
+
+
+h2 {
+    color: #ffa500; /* Oranje kleur voor h2 */
+    text-align: center; /* Centraal uitlijnen */
+    font-size: 1.8em; /* Iets kleinere tekst dan h1 */
+    margin: 20px 0 15px 0; /* Ruimte boven en onder de subtitel */
+}
+
