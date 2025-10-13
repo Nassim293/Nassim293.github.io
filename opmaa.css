@@ -7,14 +7,11 @@ body {
   color: 222px; /* standaard tekstkleur */
 }
 
-
 h1 {
   color: white; /* witte tekstkleur */
   text-align: left;  /* links uitlijnen */
   font-size: 3; /* grotere titel */
   margin bottom: 20px;  /* ruimte onder titel */
-
-
 }
 
 h2 {
@@ -26,8 +23,6 @@ h2 {
   margin-bottom: 20px; /* ruimte onder subtitel */
 }
 
-
-
 p { 
   font-family: Verdana;  /* leesbaar lettertype voor tekst */
   font-size: 20px; /* iets grotere tekst */
@@ -35,7 +30,6 @@ p {
   line-height: 1.6;  /* regelafstand voor leesbaarheid */
   margin-bottom: 20px; /* ruimte tussen paragrafen */
 }
-
 
 ul {
   list-style-type: none; /* verwijdert bolletjes van lijst */
