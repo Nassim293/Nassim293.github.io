@@ -1,11 +1,10 @@
 body {
- background-color: #7fc3dc; /* achtergrondkleur */
-  font-family: Garamond, serif; /* lettertype */
- margin: 0; /* verwijder standaardmarge */
+  background-color: #7fc3dc; /* achtergrondkleur van de pagina */
+  font-family: arial, serif; /* sierlijk lettertype */
+  margin: 0; /* verwijdert standaardmarge */
   padding: 20px; /* ruimte rondom inhoud */
- color: #222; /* standaard tekstkleur (donkergrijs) */
+  color: #222; /* standaard tekstkleur (donkergrijs) */
 }
-
 
 /* Titel (h1) */
 h1 {
