@@ -49,23 +49,21 @@ ul {
 
 
 
-ul li {
-  float: left;
-}
 
 ul li a {
   display: block;
-  color: white;
+  color: white; /* witte tekst */
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px 20px; /* ruimte in de knoppen */
+  text-decoration: none; /* geen onderlijning */
+  transition: background-color 0.3s, color 0.3s; /* mooie overgang bij hover */
 }
-
 
 
 
 ul li a:hover {
- background-color: #eeecec;
+  background-color: #444444; /* donkergrijs bij hover */
+  color: #00bfff; /* lichtblauw bij hover */
 }
 
 
