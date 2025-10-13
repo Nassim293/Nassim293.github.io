@@ -1,20 +1,20 @@
 body {
-  background-color: lightskyblue; /* achtergrondkleur */
-  background-size: cover; /* vult het scherm */
-  font-family: Arial, sans-serif; /* lettertype */
-  margin: 20 px;
+  background-color: lightskyblue; /* achtergrond kleur in de body*/ 
+  font-family: Arial, sans-serif; /* lettertype in de body*/
+  margin: 20px;
+
 }
 
 h1 {
-  color: white;
+  color: dark rgb(255, 255, 255);
   text-align: left;
 }
 
 p {
-  font-family: Verdana;
-  font-size: 20 px;
-  text-align: left;
-  line-height: 1.6;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: left; /* Tekst links uitlijnen */
+  line-height: 1.6
 }
 
 ul {
@@ -39,8 +39,4 @@ ul li a {
 
 ul li a:hover {
   background-color: #eeecec;
-}
-
-footer {
-  background-color: white;
 }
