@@ -68,7 +68,9 @@ footer {
   background-color: white;
   color:#333; /* donkere tekstkleur */
   text-align: center; /* tekst in het midden */
-  padding: 20px; /* ruimte binnen de footer */
+  padding: 20; /* ruimte binnen de footer */
+  margin-top: 40; /* ruimte boven footer */
+  font-size: 0.95; /* iets kleinere tekst */
 
 
 
