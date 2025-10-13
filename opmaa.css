@@ -1,12 +1,13 @@
 
 /* Mijn algemene body stijl */
 body {
-    margin: 0; /* Verwijdert standaardmarges van de pagina */
-    font-family: Arial, sans-serif; /* Zet het lettertype voor de hele site */
-    background-image: url('wood.jpg'); /* Donkere houten achtergrond afbeelding */
-    background-size: cover; /* Zorgt dat de achtergrond de hele pagina vult */    
-    background-attachment: fixed; /* Achtergrond blijft staan bij scrollen */
-    color: #f0f0f0; /* Standaard tekstkleur wit-achtig voor goed contrast */
+body {
+    margin: 0; /* Verwijdert standaardmarges */
+    font-family: Arial, sans-serif; /* Standaard lettertype */
+    background-color: #000; /* Zwarte achtergrond */
+    color: #f0f0f0; /* Witte/lichte tekstkleur */
+    line-height: 1.6; /* Betere leesbaarheid */
+}
 }
 
 
